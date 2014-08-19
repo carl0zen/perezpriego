@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+
+/*
+ * Setup
+ */
+@import "settings";
+@import "generic/mixins";
+@import "default/normalize";
+@import "default/base";
+@import "default/clearfix";
+@import "compass";
+
+/* 
+ * Breakpoints
+ */
+@import "breakpoints/baseline";
+
+/*
+ * Typography
+ */
+@import "https://fontastic.s3.amazonaws.com/gtF9Dui8NZhuDeZqJgqiXG/icons.css";
+@import "type";
+
+
+
+@import "helpers";
+
+
+body{
+	background: #282828;
+	height:auto;
+}
+.page-head {
+	.logo-wrapper{
+		display: inline-block;
+		*{
+			@extend .floatL;
+		}
+		.logo{
+			@extend .pointer;
+			display: inline-block;
+			float:left;
+			font-size: 15em;
+			color: white;
+			@include transition(all 0.1s ease);
+			&:hover{
+				text-shadow:0 0 1rem;
+				@include transform(perspective(2)) ;
+
+			}
+			h1{
+				font-size: 30px;
+				color:white
+			}
+			
+		}
+
+		
+	}
+}

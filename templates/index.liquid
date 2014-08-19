@@ -1,0 +1,21 @@
+{% layout "index" %}
+{% block content %} 
+	<div id="hireme"><h2>Hire me</h2> 
+		<a target="_blank" href="https://twitter.com/{{model.social.twitter}}"><span class="icon-twitter"></span></a>
+		<a href="{{model.social.odesk}}" target="_blank"><span class="icon-odesk"></span></a>
+		<a href="mailto:{{global.email}}"><span class="icon-email"></span></a>
+	</div>
+	<div id="social__list">
+		<ul>
+			{% for item in model.social %}
+			  <li><a href="{{ item.url }}"><span class="{{ item.icon }} "></span><span class="text">{{item.name}}</span></a></li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	{% comment %}
+	
+		{% include "modules/blog" with  %}
+	
+	{% endcomment %}
+{% endblock %}

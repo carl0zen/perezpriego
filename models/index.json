@@ -1,0 +1,47 @@
+{
+  "title" : "PerezPriego",
+  "design" : "Design",
+  "engineer" : "Engineer",
+  "subtitle" : "#IBuildIdeas",
+  "twitter" : "@carlosepp",
+  "job" : "UX",
+  "odesk" : "https://www.odesk.com/o/profiles/users/_~014f26b549ff5b6efa/",
+  "social" : [
+    {
+      "name": "linkedin",
+      "url" : "http://mx.linkedin.com/pub/carlos-eduardo-pérez-priego/15/58b/533/",
+      "description":"Business",
+      "icon": "icon-linkedin"
+    },
+    {
+      "name": "behance",
+      "url" : "https://www.behance.net/carlosepp",
+      "description":"design",
+      "icon": "icon-behance"
+    },
+    {
+      "name": "github",
+      "url" : "https://github.com/carlosepp",
+      "description":"code",
+      "icon": "icon-github"
+    },
+    {
+      "name": "instagram",
+      "url" : "http://instagram.com/carlosepp",
+      "description":"art",
+      "icon": "icon-instagram"
+    },
+    {
+      "name": "soundcloud",
+      "url" : "https://www.soundcloud.com/mokshasound",
+      "description":"music",
+      "icon": "icon-behance"
+    },
+    {
+      "name": "odesk",
+      "url":"https://www.odesk.com/o/profiles/users/_~014f26b549ff5b6efa/",
+      "description":"hire",
+      "icon": "icon-odesk"
+    }
+  ]
+}
